@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body > main {
+    border: 1px solid red;
+    height: 100vh;
+    /*width: 100vw;*/
+    background: url("../asserts/img/wallpaper.png") rgba(196, 196, 196, 0.8);
+    color: white;
+}
+
+body > section {
+    border: 1px solid black;
+    height: 100vh;
+    /*width: 100vw;*/
+    background: rgba(196, 196, 196, 1);
+}
+
+body > main > h1 {
+    /*width: 100%;*/
+    height: 20%;
+    text-align: center;
+    font-size: 110px;
+    margin: 0;
+    font-family: 'Peralta', cursive;
+}
+
+body > main > h1 > strong {
+    background: linear-gradient(#fff, #E10E0E);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+body>main>section{
+    border: 1px solid cornsilk;
+    height: 50%;
+}
+body>main>section>hgroup{
+    width: 49%;
+    display: inline-block;
+    float: left;
+}
+body>main>section>aside{
+    width: 49%;
+    height: 75%;
+    display: inline-block;
+    float: left;
+}
+body>main>section>section{
+    width: 49%;
+    height: 25%;
+    display: inline-block;
+    float: right;
+}
